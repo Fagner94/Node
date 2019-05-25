@@ -1,7 +1,13 @@
-<form action="/admin/categorias/nova" method="POST">
-    <label for="nome">Nome:</label>
-    <input type="text" id="nome" name="nome" placeholder="Node da categoria">
-    <label for="slug">Slug:</label>
-    <input type="text" id="slug" name="slug" placeholder="Slug da categoria">
-    <button type="submit" class="btn btn-success">Cria categoria</button>
+<h1>Nova Categoria</h1>
+<div class="card">
+    <div class="card-body">
+        <form action="/admin/categorias/nova" method="POST">
+            <label for="nome">Nome:</label>
+            <input type="text" class="form-control" id="nome" name="nome" placeholder="Node da categoria">
+            <label for="slug">Slug:</label>
+            <input type="text" class="form-control" id="slug" name="slug" placeholder="Slug da categoria">
+            </br>
+            <button type="submit" class="btn btn-success">Cria categoria</button>
+    </div>
+</div>
 </form>
